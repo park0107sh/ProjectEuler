@@ -57,4 +57,5 @@ int main()
 		scanf("%d", &arr[i]);
 	printsubset(arr, nk[0], nk[1]);
 	return 0;
+
 }
