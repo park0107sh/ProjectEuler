@@ -11,6 +11,7 @@ int main(void)
 	for (i=0; i<T; i++) {
 	  scanf("%lld", &N);
 	  sum = 0;
+	  
 	  p = (N-1)/3;
 	  sum = ((3*p*(p+1))/2);
 
