@@ -14,6 +14,6 @@ int main() {
 	    printf("%d\n", 2);
 	  else
 	    printf("%llu\n", N);	
-	}
+	} 
 	return 0;
 }	   
