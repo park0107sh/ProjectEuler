@@ -35,7 +35,7 @@ void subset(int arr[], int data[], int start, int end, int index, int r, int ar[
 		return;
 	}
 	for (i = start; i <= end && end - i + 1 >= r - index ; i++)
-	{
+	{ 
 		data[index] = arr[i];
 		subset(arr, data, i+1, end, index+1, r, ar);
 	}
