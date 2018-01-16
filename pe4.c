@@ -14,9 +14,9 @@ int is_palind(unsigned int n)
 int main(void)
 {
 	unsigned int T, k, N, i, j, p = 0, max = 0;
-	scanf("%d ", &T);
+	scanf("%d", &T);
 	for (k=0; k<T; k++) {
-		scanf("%d ", &N);
+		scanf("%d", &N);
 		for (i=100; i<=999; i++) {
 			for (j=100; j<=999; j++) {
 				p = i*j;
